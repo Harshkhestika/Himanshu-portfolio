@@ -1,0 +1,791 @@
+<!-- index.html -->
+<!--
+Content is filled from Himanshu Raj's CV PDF. [Source](https://www.genspark.ai/api/files/s/dNyLRenB)
+Note: LinkedIn pages are often not crawlable without login; this site links to LinkedIn directly. [Source](https://www.linkedin.com/in/himanshu07raj/)
+Image sources used on this page:
+- Coffee shop photo (project thumbnail): [Source](https://commons.wikimedia.org/wiki/File:%25_Arabica_NYC_Dumbo_by_Anton_Kuznetsov.jpg)
+- Coffee shop photo (project thumbnail): [Source](https://commons.wikimedia.org/wiki/File:Caffe_Reggio_01.jpg)
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Primary Meta Tags -->
+  <title>Himanshu Raj — CSE Undergraduate | Data Analytics | Web Development</title>
+  <meta name="title" content="Himanshu Raj — CSE Undergraduate | Data Analytics | Web Development" />
+  <meta name="description" content="Himanshu Raj — CSE Undergraduate specializing in Data Analytics and Web Development. View projects in data analysis, interactive dashboards, and web applications." />
+  <meta name="keywords" content="Himanshu Raj, Data Analytics, Web Development, CSE Undergraduate, Python, Pandas, Power BI, React, Portfolio" />
+  <meta name="author" content="Himanshu Raj" />
+  
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://himanshuraj.dev" />
+  <meta property="og:title" content="Himanshu Raj — CSE Undergraduate | Data Analytics | Web Development" />
+  <meta property="og:description" content="Data Analytics and Web Development portfolio featuring 149K+ transaction analysis, interactive dashboards, and responsive web applications." />
+  <meta property="og:image" content="https://himanshuraj.dev/pic.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Himanshu Raj - Profile Picture" />
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://himanshuraj.dev" />
+  <meta name="twitter:title" content="Himanshu Raj — CSE Undergraduate | Data Analytics | Web Development" />
+  <meta name="twitter:description" content="Data Analytics and Web Development portfolio featuring 149K+ transaction analysis, interactive dashboards, and responsive web applications." />
+  <meta name="twitter:image" content="https://himanshuraj.dev/pic.jpg" />
+  
+  <!-- Favicon / Apple Touch Icon - Using pic.jpg as favicon -->
+  <link rel="icon" type="image/jpeg" href="pic.jpg" />
+  <link rel="icon" type="image/jpeg" sizes="32x32" href="pic.jpg" />
+  <link rel="icon" type="image/jpeg" sizes="16x16" href="pic.jpg" />
+  <link rel="apple-touch-icon" href="pic.jpg" />
+  <meta name="theme-color" content="#2563eb" />
+
+  <!-- Tailwind CSS (CDN) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'ui-sans-serif', 'system-ui'] },
+          colors: {
+            ink: { 950: '#071022' },
+            brand: {
+              50: '#eff6ff',
+              100: '#dbeafe',
+              200: '#bfdbfe',
+              300: '#93c5fd',
+              400: '#60a5fa',
+              500: '#3b82f6',
+              600: '#2563eb',
+              700: '#1d4ed8',
+              800: '#1e40af'
+            }
+          }
+        }
+      }
+    }
+  </script>
+  
+  <!-- JSON-LD Structured Data for Person -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Himanshu Raj",
+    "url": "https://himanshuraj.dev",
+    "image": "https://himanshuraj.dev/pic.jpg",
+    "sameAs": [
+      "https://www.linkedin.com/in/himanshu07raj/",
+      "https://github.com/HR07xx"
+    ],
+    "jobTitle": "CSE Undergraduate",
+    "worksFor": {
+      "@type": "CollegeOrUniversity",
+      "name": "Lovely Professional University"
+    },
+    "description": "Data Analytics and Web Development enthusiast with expertise in Python, Pandas, Power BI, and React.",
+    "knowsAbout": ["Data Analytics", "Web Development", "Python", "Pandas", "Power BI", "React", "SQL"],
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Lovely Professional University"
+    }
+  }
+  </script>
+</head>
+
+<body class="min-h-screen bg-gradient-to-b from-white via-brand-50 to-white text-ink-950 antialiased">
+  <!-- Background ornaments -->
+  <div class="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <div class="grid-fade"></div>
+  </div>
+
+  <!-- Sticky Navbar -->
+  <header class="sticky top-0 z-50">
+    <nav class="nav-glass">
+      <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
+        <a href="#home" class="flex items-center gap-3">
+          <!-- Image in header before name -->
+          <div class="h-10 w-10 rounded-full overflow-hidden ring-2 ring-white/50 shadow-md">
+            <img 
+              src="pic.jpg" 
+              alt="Himanshu Raj" 
+              class="h-full w-full object-cover"
+              onerror="this.onerror=null; this.src='https://via.placeholder.com/40x40?text=HR';"
+            >
+          </div>
+          <div class="leading-tight">
+            <p class="font-semibold">Himanshu Raj</p>
+            <p class="text-xs text-slate-600">CSE Undergraduate • Data & Web</p>
+          </div>
+        </a>
+
+        <div class="hidden items-center gap-1 md:flex">
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#skills">Skills</a>
+          <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link" href="#certificates">Certificates</a>
+          <a class="nav-link" href="#education">Education</a>
+          <a class="nav-link" href="#contact">Contact</a>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <a class="btn btn-soft hidden sm:inline-flex" href="https://www.genspark.ai/api/files/s/dNyLRenB" download>
+            Download CV
+          </a>
+          <button id="menuBtn" class="btn btn-soft md:hidden" aria-label="Open menu">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 6h16M4 12h16M4 18h16"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile menu -->
+      <div id="mobileMenu" class="mx-auto hidden max-w-6xl px-4 pb-4 md:hidden">
+        <div class="rounded-2xl bg-white/70 p-3 ring-1 ring-black/5 shadow-sm">
+          <div class="grid gap-1">
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#skills">Skills</a>
+            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#certificates">Certificates</a>
+            <a class="nav-link" href="#education">Education</a>
+            <a class="nav-link" href="#contact">Contact</a>
+            <a class="btn btn-soft mt-2 justify-center" href="https://www.genspark.ai/api/files/s/dNyLRenB" download>
+              Download CV
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main -->
+  <main class="mx-auto max-w-6xl px-4">
+    <!-- HERO -->
+<section id="home" class="pt-10 sm:pt-14">
+  <div class="grid items-center gap-10 lg:grid-cols-2">
+    <div class="reveal">
+      <div class="inline-flex items-center gap-2 rounded-full bg-white/70 px-4 py-2 text-sm text-slate-700 ring-1 ring-black/5 shadow-sm">
+        <span class="h-2 w-2 rounded-full bg-brand-500"></span>
+        Open to impactful projects in Data Analytics & Web
+      </div>
+
+      <h1 class="mt-5 text-4xl font-extrabold tracking-tight sm:text-5xl">
+        Himanshu Raj
+        <span class="block bg-gradient-to-r from-brand-800 via-brand-600 to-brand-500 bg-clip-text text-transparent">
+          CSE Undergraduate • Data Analytics • Web Development
+        </span>
+      </h1>
+
+      <p class="mt-5 text-lg leading-relaxed text-slate-700">
+        I build clean, insight-driven dashboards and data analysis projects, and I enjoy creating responsive web experiences.
+        Recently, I analyzed <span class="font-semibold text-slate-800">149,000+ coffee shop transactions</span> across
+        <span class="font-semibold text-slate-800">3 NYC store locations</span> to uncover actionable KPIs and trends.
+      </p>
+
+      <div class="mt-7 flex flex-wrap items-center gap-3">
+        <a class="btn btn-primary" href="https://www.linkedin.com/in/himanshu07raj/" target="_blank" rel="noreferrer">
+          LinkedIn
+        </a>
+        <a class="btn btn-soft" href="https://github.com/HR07xx" target="_blank" rel="noreferrer">
+          GitHub
+        </a>
+        <a class="btn btn-soft" href="mailto:hraj0838800@gmail.com">
+          Email
+        </a>
+        <a class="btn btn-soft" href="https://www.genspark.ai/api/files/s/dNyLRenB" download>
+          Download CV
+        </a>
+      </div>
+
+      <div class="mt-7 flex flex-wrap gap-3 text-sm text-slate-600">
+        <span class="chip">📍 Phagwara, Punjab (Education)</span>
+        <span class="chip">📞 +91 9142887414</span>
+        <span class="chip">✉️ hraj0838800@gmail.com</span>
+      </div>
+
+      <div class="mt-8">
+        <a href="#about" class="inline-flex items-center gap-2 text-brand-700 hover:text-brand-800 font-semibold">
+          Explore my work
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 5v14M19 12l-7 7-7-7" />
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Right Side Content with Box-Shaped Profile Image -->
+    <div class="reveal">
+      <div class="card-glass p-6 sm:p-7">
+        <!-- Profile Image Section - Box Shaped -->
+        <div class="flex items-center gap-4">
+          <div class="relative">
+            <div class="h-20 w-20 rounded-xl ring-2 ring-white/50 shadow-md overflow-hidden bg-gradient-to-br from-brand-100 to-white">
+              <img 
+                src="pic.jpg" 
+                alt="Himanshu Raj" 
+                class="h-full w-full object-cover"
+                onerror="this.onerror=null; this.src='https://via.placeholder.com/80x80?text=HR';"
+              >
+            </div>
+            <span class="absolute -bottom-1 -right-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-white ring-1 ring-black/5 shadow-sm">
+              <span class="h-2.5 w-2.5 rounded-full bg-emerald-500"></span>
+            </span>
+          </div>
+
+          <div>
+            <p class="text-sm text-slate-600">Currently focusing on</p>
+            <p class="text-lg font-semibold">Data Analysis • Dashboards • Problem Solving</p>
+          </div>
+        </div>
+
+        <!-- Stats Grid -->
+        <div class="mt-6 grid gap-4 sm:grid-cols-3">
+          <div class="stat">
+            <p class="stat-k">149k+</p>
+            <p class="stat-v">Transactions analyzed</p>
+          </div>
+          <div class="stat">
+            <p class="stat-k">3</p>
+            <p class="stat-v">NYC store locations</p>
+          </div>
+          <div class="stat">
+            <p class="stat-k">25k+</p>
+            <p class="stat-v">LeetCode contest pool</p>
+          </div>
+        </div>
+
+        <!-- Quick Highlights -->
+        <div class="mt-6 rounded-2xl bg-white/70 p-4 ring-1 ring-black/5">
+          <p class="text-sm font-semibold text-slate-800">Quick Highlights</p>
+          <ul class="mt-2 space-y-2 text-sm text-slate-700">
+            <li class="flex gap-2"><span class="mt-1 h-1.5 w-1.5 rounded-full bg-brand-500"></span>Cleaned, wrangled, and engineered features to extract hourly/daily/monthly KPIs.</li>
+            <li class="flex gap-2"><span class="mt-1 h-1.5 w-1.5 rounded-full bg-brand-500"></span>Built an interactive Excel dashboard with Pivot Tables/Charts and slicers.</li>
+            <li class="flex gap-2"><span class="mt-1 h-1.5 w-1.5 rounded-full bg-brand-500"></span>Strong foundation across C++, Java, Python, and web basics.</li>
+          </ul>
+        </div>
+
+        <!-- Skills Pills -->
+        <div class="mt-6 flex flex-wrap gap-2">
+          <span class="pill">Python</span>
+          <span class="pill">Pandas</span>
+          <span class="pill">NumPy</span>
+          <span class="pill">Matplotlib</span>
+          <span class="pill">Seaborn</span>
+          <span class="pill">MySQL</span>
+          <span class="pill">Power BI</span>
+          <span class="pill">React</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  /* Fallback styling for chips and pills if not defined in style.css */
+  .chip {
+    @apply px-3 py-1.5 bg-white/70 rounded-full ring-1 ring-black/5 text-sm;
+  }
+  
+  .pill {
+    @apply px-3 py-1.5 bg-white/70 rounded-full ring-1 ring-black/5 text-xs font-medium text-slate-700;
+  }
+  
+  .stat {
+    @apply text-center;
+  }
+  
+  .stat-k {
+    @apply text-2xl font-bold text-brand-700;
+  }
+  
+  .stat-v {
+    @apply text-xs text-slate-600;
+  }
+  
+  .card-glass {
+    @apply backdrop-blur-xl bg-white/50 rounded-3xl ring-1 ring-black/5 shadow-sm;
+  }
+</style>
+    <!-- ABOUT -->
+    <section id="about" class="section-pad">
+      <div class="reveal">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">
+          A focused, hands-on learner who enjoys turning raw data into clear insights and building clean, responsive interfaces.
+        </p>
+      </div>
+
+      <div class="mt-8 grid gap-6 lg:grid-cols-3">
+        <div class="reveal lg:col-span-2">
+          <div class="card-glass p-6 sm:p-7">
+            <h3 class="text-lg font-semibold">Professional Summary</h3>
+            <p class="mt-3 text-slate-700 leading-relaxed">
+              I’m a Computer Science and Engineering undergraduate at Lovely Professional University (CGPA: 6.87).
+              My projects include an end-to-end data analysis workflow (cleaning, wrangling, feature engineering, KPI extraction,
+              visualization) and an interactive Excel dashboard for sales analysis. I value problem-solving, teamwork, leadership,
+              and adaptability—skills I apply while learning and building projects.
+            </p>
+
+            <div class="mt-6 grid gap-4 sm:grid-cols-2">
+              <div class="info-card">
+                <p class="info-k">Email</p>
+                <a class="info-v" href="mailto:hraj0838800@gmail.com">hraj0838800@gmail.com</a>
+              </div>
+              <div class="info-card">
+                <p class="info-k">GitHub</p>
+                <a class="info-v" href="https://github.com/HR07xx" target="_blank" rel="noreferrer">github.com/HR07xx</a>
+              </div>
+              <div class="info-card">
+                <p class="info-k">LinkedIn</p>
+                <a class="info-v" href="https://www.linkedin.com/in/himanshu07raj/" target="_blank" rel="noreferrer">linkedin.com/in/himanshu07raj</a>
+              </div>
+              <div class="info-card">
+                <p class="info-k">Mobile</p>
+                <a class="info-v" href="tel:+919142887414">+91 9142887414</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal">
+          <div class="card-glass p-6 sm:p-7">
+            <h3 class="text-lg font-semibold">Core Strengths</h3>
+            <div class="mt-4 space-y-4">
+              <div>
+                <div class="flex items-center justify-between text-sm">
+                  <span class="font-medium text-slate-700">Problem-Solving</span>
+                  <span class="text-slate-500">Consistent</span>
+                </div>
+                <div class="bar"><span class="bar-fill w-[92%]"></span></div>
+              </div>
+              <div>
+                <div class="flex items-center justify-between text-sm">
+                  <span class="font-medium text-slate-700">Team Work</span>
+                  <span class="text-slate-500">Collaborative</span>
+                </div>
+                <div class="bar"><span class="bar-fill w-[88%]"></span></div>
+              </div>
+              <div>
+                <div class="flex items-center justify-between text-sm">
+                  <span class="font-medium text-slate-700">Leadership</span>
+                  <span class="text-slate-500">Growing</span>
+                </div>
+                <div class="bar"><span class="bar-fill w-[78%]"></span></div>
+              </div>
+              <div>
+                <div class="flex items-center justify-between text-sm">
+                  <span class="font-medium text-slate-700">Adaptability</span>
+                  <span class="text-slate-500">Fast learner</span>
+                </div>
+                <div class="bar"><span class="bar-fill w-[90%]"></span></div>
+              </div>
+            </div>
+
+            <div class="mt-6 rounded-2xl bg-white/70 p-4 ring-1 ring-black/5">
+              <p class="text-sm font-semibold text-slate-800">What I like building</p>
+              <div class="mt-3 flex flex-wrap gap-2">
+                <span class="pill">KPI dashboards</span>
+                <span class="pill">Sales analysis</span>
+                <span class="pill">Data cleaning</span>
+                <span class="pill">Visual storytelling</span>
+                <span class="pill">Responsive UI</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section-pad">
+      <div class="reveal">
+        <h2 class="section-title">Skills</h2>
+        <p class="section-subtitle">
+          A balanced toolkit across programming, analytics, visualization, and modern web basics.
+        </p>
+      </div>
+
+      <div class="mt-8 grid gap-6 lg:grid-cols-2">
+        <div class="reveal card-glass p-6 sm:p-7">
+          <h3 class="text-lg font-semibold">Programming Languages</h3>
+          <div class="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-3">
+            <span class="skill-pill">C++</span>
+            <span class="skill-pill">Java</span>
+            <span class="skill-pill">Python</span>
+          </div>
+          <div class="mt-5 space-y-3">
+            <div class="mini-row">
+              <span>Problem solving & algorithms</span>
+              <span class="mini-dot"></span>
+            </div>
+            <div class="mini-row">
+              <span>Data structures practice</span>
+              <span class="mini-dot"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal card-glass p-6 sm:p-7">
+          <h3 class="text-lg font-semibold">Frameworks & Web</h3>
+          <div class="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-3">
+            <span class="skill-pill">HTML</span>
+            <span class="skill-pill">CSS</span>
+            <span class="skill-pill">Node.js</span>
+            <span class="skill-pill">React</span>
+          </div>
+          <p class="mt-5 text-sm text-slate-700 leading-relaxed">
+            Comfortable building responsive layouts and clean interfaces, using modern tooling and a component mindset.
+          </p>
+        </div>
+
+        <div class="reveal card-glass p-6 sm:p-7">
+          <h3 class="text-lg font-semibold">Tools & Platforms</h3>
+          <div class="mt-5 flex flex-wrap gap-2">
+            <span class="pill">MySQL</span>
+            <span class="pill">Power BI</span>
+            <span class="pill">Git</span>
+            <span class="pill">VS Code</span>
+          </div>
+          <div class="mt-6 rounded-2xl bg-white/70 p-4 ring-1 ring-black/5">
+            <p class="text-sm font-semibold text-slate-800">Workflow I follow</p>
+            <ol class="mt-2 space-y-2 text-sm text-slate-700">
+              <li class="flex gap-2"><span class="mt-1 h-1.5 w-1.5 rounded-full bg-brand-500"></span>Define KPI goals → clean data</li>
+              <li class="flex gap-2"><span class="mt-1 h-1.5 w-1.5 rounded-full bg-brand-500"></span>Engineer features → validate trends</li>
+              <li class="flex gap-2"><span class="mt-1 h-1.5 w-1.5 rounded-full bg-brand-500"></span>Visualize → communicate insights</li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="reveal card-glass p-6 sm:p-7">
+          <h3 class="text-lg font-semibold">Data Science Libraries</h3>
+          <div class="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-3">
+            <span class="skill-pill">Pandas</span>
+            <span class="skill-pill">NumPy</span>
+            <span class="skill-pill">Scikit-Learn</span>
+            <span class="skill-pill">Matplotlib</span>
+            <span class="skill-pill">Seaborn</span>
+          </div>
+
+          <div class="mt-6">
+            <p class="text-sm font-semibold text-slate-800">Used in projects</p>
+            <div class="mt-3 space-y-3">
+              <div class="bar"><span class="bar-fill w-[100%]"></span></div>
+              <p class="text-xs text-slate-600">
+                (Animated bars are stylistic—designed to emphasize your toolkit visually.)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section-pad">
+      <div class="reveal">
+        <h2 class="section-title">Projects</h2>
+        <p class="section-subtitle">
+          Practical projects designed to extract insights, communicate trends, and enable decision-making.
+        </p>
+      </div>
+
+      <div class="mt-8 grid gap-6 lg:grid-cols-2">
+        <!-- Project 1 -->
+        <article class="reveal card-glass overflow-hidden">
+          <div class="relative h-44">
+            <img
+              class="h-full w-full object-cover"
+              src="https://sspark.genspark.ai/cfimages?u1=P%2BTaXew42SXzQsoKVyaMt%2FBGVJoBBEATs47E1GFpNLFahcEwYUB7dHy%2BRhjM5gcA9DBjV5mqrgbljQ%2BdCn8Drsl2bX26bS%2B%2BB2vcObjGrem9eQb53t%2FfTQvU97hgMvdt%2FhQlYlITT6AZLw%3D%3D&u2=QdYRLZyiI2TgHUeQ&width=2560"
+              alt="Coffee shop sales project thumbnail"
+              loading="lazy"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-white/85 via-white/10 to-transparent"></div>
+            <div class="absolute bottom-3 left-4 right-4 flex items-center justify-between">
+              <h3 class="text-lg font-semibold">Coffee Shop Sales Model</h3>
+              <span class="badge">Jan ’25 – Feb ’25</span>
+            </div>
+          </div>
+
+          <div class="p-6 sm:p-7">
+            <p class="text-slate-700 leading-relaxed">
+              Conducted an in-depth data analysis project using a real-world simulated dataset of <span class="font-semibold">149,000+ transactions</span>
+              across <span class="font-semibold">three NYC store locations</span>. Cleaned and wrangled data, engineered features, and extracted KPIs
+              including hourly/daily/monthly trends, store-wise revenue distribution, and product performance insights.
+            </p>
+
+            <div class="mt-5 flex flex-wrap gap-2">
+              <span class="pill">Python</span>
+              <span class="pill">Pandas</span>
+              <span class="pill">NumPy</span>
+              <span class="pill">Matplotlib</span>
+              <span class="pill">Seaborn</span>
+            </div>
+
+            <div class="mt-6 flex flex-wrap gap-3">
+              <a class="btn btn-primary" href="https://github.com/HR07xx" target="_blank" rel="noreferrer">View on GitHub</a>
+              <a class="btn btn-soft" href="#contact">Discuss this project</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="reveal card-glass overflow-hidden">
+          <div class="relative h-44">
+            <img
+              class="h-full w-full object-cover"
+              src="https://sspark.genspark.ai/cfimages?u1=8VlMqy4uJXqC2TWzX8GiUuKdtRekQMxKxwWVS5%2Bjm%2BLTdI3JIjKFqX%2FVs2f%2BA3az3V8DFFKcU2qb6U6fX6umVkwaiujZjzbwEaJJ%2FJyifdKly6vpiefF&u2=Wtb2g1jE7NwhPuOV&width=2560"
+              alt="Coffee shop dashboard project thumbnail"
+              loading="lazy"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-white/85 via-white/10 to-transparent"></div>
+            <div class="absolute bottom-3 left-4 right-4 flex items-center justify-between">
+              <h3 class="text-lg font-semibold">Coffee Shop Sales Dashboard</h3>
+              <span class="badge">Apr ’24 – May ’24</span>
+            </div>
+          </div>
+
+          <div class="p-6 sm:p-7">
+            <p class="text-slate-700 leading-relaxed">
+              Built an interactive Excel dashboard to analyze sales performance, customer footfall, and product trends.
+              Cleaned and transformed data, created KPIs, and designed a cohesive dashboard using Pivot Tables, Pivot Charts,
+              slicers, and custom visuals for dynamic exploration.
+            </p>
+
+            <div class="mt-5 flex flex-wrap gap-2">
+              <span class="pill">Microsoft Excel</span>
+              <span class="pill">Pivot Tables</span>
+              <span class="pill">Pivot Charts</span>
+              <span class="pill">Slicers</span>
+              <span class="pill">Dashboarding</span>
+            </div>
+
+            <div class="mt-6 flex flex-wrap gap-3">
+              <a class="btn btn-primary" href="https://github.com/HR07xx" target="_blank" rel="noreferrer">View on GitHub</a>
+              <a class="btn btn-soft" href="#contact">Request walkthrough</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CERTIFICATES & ACHIEVEMENTS -->
+    <section id="certificates" class="section-pad">
+      <div class="reveal">
+        <h2 class="section-title">Certificates & Achievements</h2>
+        <p class="section-subtitle">
+          Recognitions and learning milestones that reflect consistent improvement and competitive practice.
+        </p>
+      </div>
+
+      <div class="mt-8 grid gap-6 lg:grid-cols-3">
+        <div class="reveal card-glass p-6 sm:p-7 lg:col-span-2">
+          <h3 class="text-lg font-semibold">Certificates</h3>
+
+          <div class="mt-5 grid gap-4 sm:grid-cols-2">
+            <a class="cert-card" href="https://www.linkedin.com/in/himanshu07raj/details/certifications/" target="_blank" rel="noreferrer">
+              <p class="cert-title">Computational Theory: Language Principle & Finite Automata</p>
+              <p class="cert-meta">Infosys</p>
+              <span class="cert-cta">Open certificate</span>
+            </a>
+
+            <a class="cert-card" href="https://www.linkedin.com/in/himanshu07raj/details/certifications/" target="_blank" rel="noreferrer">
+              <p class="cert-title">ChatGPT-4 Prompt Engineering: ChatGPT, Generative AI & LLM</p>
+              <p class="cert-meta">Infosys</p>
+              <span class="cert-cta">Open certificate</span>
+            </a>
+          </div>
+
+          <p class="mt-4 text-xs text-slate-600">
+            Note: Certificate buttons open the LinkedIn “Certifications” section link.
+          </p>
+        </div>
+
+        <div class="reveal card-glass p-6 sm:p-7">
+          <h3 class="text-lg font-semibold">Achievements</h3>
+          <div class="mt-4 space-y-4">
+            <div class="ach">
+              <p class="ach-k">LeetCode Contest</p>
+              <p class="ach-v">Global Rank <span class="font-semibold">6033</span> among <span class="font-semibold">25k+</span> participants (Biweekly Contest 96)</p>
+              <p class="ach-d">Mar ’25</p>
+            </div>
+            <div class="ach">
+              <p class="ach-k">Coding Assessments</p>
+              <p class="ach-v">Ranked in the <span class="font-semibold">top 20%</span> in multiple online assessments (HackerRank, LeetCode)</p>
+              <p class="ach-d">Nov ’24</p>
+            </div>
+          </div>
+
+          <div class="mt-6 rounded-2xl bg-white/70 p-4 ring-1 ring-black/5">
+            <p class="text-sm font-semibold text-slate-800">Competitive mindset</p>
+            <p class="mt-2 text-sm text-slate-700 leading-relaxed">
+              I enjoy structured practice and measurable progress—contests and assessments help sharpen speed, correctness, and clarity.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section-pad">
+      <div class="reveal">
+        <h2 class="section-title">Education</h2>
+        <p class="section-subtitle">
+          Academic journey across engineering fundamentals and strong school performance.
+        </p>
+      </div>
+
+      <div class="mt-8">
+        <div class="timeline">
+          <div class="reveal t-item">
+            <div class="t-dot"></div>
+            <div class="card-glass p-6 sm:p-7">
+              <div class="flex flex-wrap items-center justify-between gap-2">
+                <h3 class="text-lg font-semibold">Lovely Professional University</h3>
+                <span class="badge">Aug ’23 — Present</span>
+              </div>
+              <p class="mt-2 text-slate-700">Bachelor of Technology — Computer Science and Engineering</p>
+              <p class="mt-2 text-sm text-slate-600">Phagwara, Punjab • CGPA: 6.87</p>
+            </div>
+          </div>
+
+          <div class="reveal t-item">
+            <div class="t-dot"></div>
+            <div class="card-glass p-6 sm:p-7">
+              <div class="flex flex-wrap items-center justify-between gap-2">
+                <h3 class="text-lg font-semibold">Narayana School</h3>
+                <span class="badge">Apr ’21 — Mar ’23</span>
+              </div>
+              <p class="mt-2 text-slate-700">Intermediate</p>
+              <p class="mt-2 text-sm text-slate-600">Asansol, West Bengal • Percentage: 80</p>
+            </div>
+          </div>
+
+          <div class="reveal t-item">
+            <div class="t-dot"></div>
+            <div class="card-glass p-6 sm:p-7">
+              <div class="flex flex-wrap items-center justify-between gap-2">
+                <h3 class="text-lg font-semibold">Guru Govind School</h3>
+                <span class="badge">Apr ’20 — Mar ’21</span>
+              </div>
+              <p class="mt-2 text-slate-700">Matriculation</p>
+              <p class="mt-2 text-sm text-slate-600">Patna, Bihar • Percentage: 84</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section-pad pb-16">
+      <div class="reveal">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-subtitle">
+          Want to collaborate or review a project? Reach out—happy to connect.
+        </p>
+      </div>
+
+      <div class="mt-8 grid gap-6 lg:grid-cols-2">
+        <div class="reveal card-glass p-6 sm:p-7">
+          <h3 class="text-lg font-semibold">Direct links</h3>
+          <div class="mt-4 space-y-3">
+            <a class="contact-link" href="mailto:hraj0838800@gmail.com">
+              <span class="contact-k">Email</span>
+              <span class="contact-v">hraj0838800@gmail.com</span>
+            </a>
+            <a class="contact-link" href="https://www.linkedin.com/in/himanshu07raj/" target="_blank" rel="noreferrer">
+              <span class="contact-k">LinkedIn</span>
+              <span class="contact-v">linkedin.com/in/himanshu07raj</span>
+            </a>
+            <a class="contact-link" href="https://github.com/HR07xx" target="_blank" rel="noreferrer">
+              <span class="contact-k">GitHub</span>
+              <span class="contact-v">github.com/HR07xx</span>
+            </a>
+            <a class="contact-link" href="https://www.genspark.ai/api/files/s/dNyLRenB" download>
+              <span class="contact-k">CV</span>
+              <span class="contact-v">Download PDF</span>
+            </a>
+          </div>
+
+          <div class="mt-6 rounded-2xl bg-white/70 p-4 ring-1 ring-black/5">
+            <p class="text-sm font-semibold text-slate-800">Preferred topics</p>
+            <div class="mt-3 flex flex-wrap gap-2">
+              <span class="pill">Data analysis</span>
+              <span class="pill">Dashboards</span>
+              <span class="pill">Python tooling</span>
+              <span class="pill">Frontend UI</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal card-glass p-6 sm:p-7">
+          <h3 class="text-lg font-semibold">Send a message</h3>
+          <p class="mt-2 text-sm text-slate-600">Front-end only form (no backend submission).</p>
+
+          <form class="mt-5 grid gap-4" onsubmit="event.preventDefault(); alert('Thanks! This is a front-end only form. Please email or message on LinkedIn.');">
+            <div class="grid gap-4 sm:grid-cols-2">
+              <label class="field">
+                <span class="field-label">Name</span>
+                <input class="field-input" type="text" name="name" placeholder="Your name" required />
+              </label>
+              <label class="field">
+                <span class="field-label">Email</span>
+                <input class="field-input" type="email" name="email" placeholder="you@example.com" required />
+              </label>
+            </div>
+
+            <label class="field">
+              <span class="field-label">Subject</span>
+              <input class="field-input" type="text" name="subject" placeholder="Project / Collaboration / Query" required />
+            </label>
+
+            <label class="field">
+              <span class="field-label">Message</span>
+              <textarea class="field-input min-h-[140px] resize-y" name="message" placeholder="Write your message..." required></textarea>
+            </label>
+
+            <div class="flex flex-wrap items-center gap-3">
+              <button class="btn btn-primary" type="submit">Send</button>
+              <a class="btn btn-soft" href="mailto:hraj0838800@gmail.com">Email directly</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-200/60 bg-white/60">
+    <div class="mx-auto max-w-6xl px-4 py-8">
+      <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+        <p class="text-sm text-slate-600">
+          © <span id="year"></span> Himanshu Raj 
+        </p>
+        <div class="flex flex-wrap gap-2">
+          <a class="footer-link" href="#home">Top</a>
+          <a class="footer-link" href="https://www.linkedin.com/in/himanshu07raj/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="footer-link" href="https://github.com/HR07xx" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="footer-link" href="https://www.genspark.ai/api/files/s/dNyLRenB" download>CV</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
